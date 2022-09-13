@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "POO", "POO", "{E5207FCB-DE88-41E0-84D1-1E9805E2B12C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Objetos", "POO\Objetos.csproj", "{93D213A4-4EAD-4004-AE17-FDEE552D5AA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patrones", "Patrones", "{D553135C-0AF6-4314-83E6-FDF7B617D0B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comportamiento", "Comportamiento", "{8AB7835D-991E-4069-A367-D1B35BCD9688}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Memento", "Memento", "{A3BDFDEA-B3EA-4E05-BB3C-072011873F8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Patrones\Memento\Memento.csproj", "{850CE3DC-4E5E-4223-95E4-0A537BC27769}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93D213A4-4EAD-4004-AE17-FDEE552D5AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D213A4-4EAD-4004-AE17-FDEE552D5AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D213A4-4EAD-4004-AE17-FDEE552D5AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D213A4-4EAD-4004-AE17-FDEE552D5AA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{850CE3DC-4E5E-4223-95E4-0A537BC27769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{850CE3DC-4E5E-4223-95E4-0A537BC27769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{850CE3DC-4E5E-4223-95E4-0A537BC27769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{850CE3DC-4E5E-4223-95E4-0A537BC27769}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{93D213A4-4EAD-4004-AE17-FDEE552D5AA8} = {E5207FCB-DE88-41E0-84D1-1E9805E2B12C}
+		{8AB7835D-991E-4069-A367-D1B35BCD9688} = {D553135C-0AF6-4314-83E6-FDF7B617D0B6}
+		{A3BDFDEA-B3EA-4E05-BB3C-072011873F8E} = {8AB7835D-991E-4069-A367-D1B35BCD9688}
+		{850CE3DC-4E5E-4223-95E4-0A537BC27769} = {A3BDFDEA-B3EA-4E05-BB3C-072011873F8E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B3B4B7B-A086-4992-A94D-96E171F0A8C6}
+	EndGlobalSection
+EndGlobal

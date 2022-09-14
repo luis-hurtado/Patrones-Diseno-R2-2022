@@ -16,5 +16,15 @@ namespace Memento
             set { content = value; }
         }
 
+        public EditorState CreateState()
+        {
+            return new EditorState(content);
+        }
+
+        public void RecoverState(EditorState lastState)
+        {
+            Content = lastState.Content;
+        }
+
     }
 }

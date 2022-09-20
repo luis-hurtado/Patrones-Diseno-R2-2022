@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comportamiento", "Comportam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Patrones\Memento\Memento.csproj", "{850CE3DC-4E5E-4223-95E4-0A537BC27769}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{C2D716C2-ED24-47DF-B5F9-8239630D817F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "Patrones\State\State.csproj", "{C2D716C2-ED24-47DF-B5F9-8239630D817F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

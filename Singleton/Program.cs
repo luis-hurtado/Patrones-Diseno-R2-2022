@@ -6,6 +6,13 @@ namespace Singleton
     {
         static void Main(string[] args)
         {
+            //Demo();
+            Safe.SafethreadTest.Ejecutar();
+            Console.ReadLine();
+        }
+
+        private static void Demo()
+        {
             ConfigManager manejador = ConfigManager.GetInstance();
             manejador.Set("Nombre_Aplicacion", "MiAplicacion");
             manejador.Set("Version", 1);
@@ -18,8 +25,6 @@ namespace Singleton
                 Console.WriteLine("Son iguales");
             else
                 Console.WriteLine("Son diferentes");
-
-            Console.ReadLine();
         }
     }
 }
